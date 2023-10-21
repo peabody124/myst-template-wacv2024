@@ -1,0 +1,96 @@
+jtex: v1
+title: llncs 
+description: Springer Computer Science Proceedings
+version: 1.0.0
+license: CC-BY-4.0
+thumbnail: ./thumbnail.png
+authors:
+  - name: R. James Cotton
+    github: http://github.com/peabody124
+    affiliations:
+      - Northwestern University
+tags:
+  - paper
+  - preprint
+  - arxiv
+  - ieee
+source: https://github.com/peabody124/myst-wacv2024
+parts:
+  - id: abstract
+    required: true
+    description: >
+      Keep it short — abstracts longer than 1920 characters will not be
+      accepted; abridge your abstract if necessary
+    max_chars: 1920
+  - id: acknowledgments
+    description: >-
+      Free form acknowledgments section will be include at the end of the
+      article
+  - id: appendix
+doc:
+  - id: title
+    required: true
+  - id: authors
+    required: true
+  - id: keywords
+  - id: bibliography
+files:
+  - ieee_fullname.bst
+  - template.tex
+  - wacv.sty
+style:
+  bibliography: natbib
+
+imports:
+  - amsfonts
+packages:
+  - alphalph
+  - amsmath
+  - amsfonts
+  - authblk
+  - babel
+  - booktabs
+  - calc
+  - changepage
+  - colortbl
+  - csquotes
+  - endfloat
+  - enumitem
+  - etoolbox
+  - fancyhdr
+  - fontenc
+  - gensymb
+  - graphicx
+  - hyperref
+  - ifluatex
+  - ifsym
+  - ifxetex
+  - inputenc
+  - lastpage
+  - lineno
+  - lipsum
+  - listings
+  - longtable
+  - marginfix
+  - mdframed
+  - mhchem
+  - microtype
+  - multirow
+  - newfile
+  - newfloat
+  - opensans
+  - orcidlink
+  - pdflscape
+  - regexpatch
+  - rotating
+  - silence
+  - siunitx
+  - snotez
+  - stix
+  - subcaption
+  - tabularx
+  - textgreek
+  - titlesec
+  - unicode-math
+  - wrapfig
+  - xcolor
